@@ -174,7 +174,8 @@ def game_loop():
 
             plot_snake(snk_list,snake_size)
             show_score("Score : "+str(score)+"    High Score : "+str(High_score1),green)
-
+            text2=font3.render(("STORY MODE"),True,white)
+            gameWindow.blit(text2,(950,10))
         pygame.display.update()
         clock.tick(fps)
 
